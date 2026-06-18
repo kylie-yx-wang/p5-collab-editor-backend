@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 const http = require('http');
-const { setupWSConnection } = require('y-websocket/bin/utils.js');
+const { setupWSConnection } = require('y-websocket/bin/utils');
 
 // Create a basic HTTP server so we can check if it's alive in a browser
 const server = http.createServer((request, response) => {
